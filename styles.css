@@ -1,3 +1,8 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family: Times New Roman,Verdana,Arial,sans-serif;
+}
 .h1{
 	text-align: center;
 	background-color: lightgreen;
@@ -38,6 +43,27 @@ h2{
 	color: brown;
 	margin: 2% .5%;
 }
-#p{
+.c1{
+	margin: 2%;
+}
+.p{
 	font-size: 17px;
+}
+#course{
+	margin: 2%;
+}
+#course ol{
+	color: coral;
+}
+.tr{
+	padding: 10px;
+}
+#course ol>ul{
+	position: relative;
+	left: 4%;
+	color: black;
+}
+td,th{
+	text-align: left;
+	width: 50%;
 }
