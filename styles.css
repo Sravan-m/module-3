@@ -13,10 +13,10 @@
 #img{
 	position: relative;
 	float: right;
-	width: 30%;
-	height: 450px;
+	width: 25%;
+	height: 380px;
 	margin: 2%;
-	border-radius: 70%;
+	border-radius: 50%;
 	border: 2px solid green;
 }
 .table1{
@@ -66,4 +66,29 @@ h2{
 td,th{
 	text-align: left;
 	width: 50%;
+}
+#comment{
+	box-sizing: border-box;
+	width: 50%;
+	background-color: lightgrey;
+	padding: 20px;
+}
+#comment textarea{
+	width: 500px;
+	height: 250px;
+	padding-top: 15px;
+}
+#comment h2{
+	margin-left: 36%;
+}
+#comment input{
+	margin: 20px;
+	padding: 5px;
+	border: 2px solid black;
+}
+#comment input[type=submit]{
+	margin-left: 40%;
+	cursor: pointer;
+	background-color: aqua;
+	color: azure;
 }
